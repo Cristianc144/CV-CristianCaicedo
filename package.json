@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cristianc144/CV-CristianCaicedo/issues"
   },
-  "homepage": "https://github.com/Cristianc144/CV-CristianCaicedo#readme"
+  "homepage": "https://github.com/Cristianc144/CV-CristianCaicedo#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }

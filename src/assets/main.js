@@ -2,6 +2,27 @@
 const API = 'https://github-non-official-apis.p.rapidapi.com/fetch?url=https%3A%2F%2Fgithub.com%2FCristianc144'
 
 const content = null || document.getElementById('content')
+const githubIcon = document.getElementById('github-icon')
+const linkedinIcon = document.getElementById('linkedin-icon')
+const instagramIcon = document.getElementById('instagram-icon')
+
+githubIcon.addEventListener('click',  ListenEvent)
+linkedinIcon.addEventListener('click',  ListenEvent2)
+instagramIcon.addEventListener('click',  ListenEvent3)
+
+function ListenEvent() {
+    window.location.href = 'https://github.com/Cristianc144'
+}
+
+function ListenEvent2() {
+    window.location.href = 'https://www.linkedin.com/in/cristian-ferney-caicedo-castillo-a68646250/'
+}
+
+function ListenEvent3() {
+    window.location.href = 'https://www.instagram.com/cristianc155/'
+}
+
+
 const options = {
 	method: 'GET',
 	headers: {
