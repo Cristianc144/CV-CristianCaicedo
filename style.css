@@ -1,0 +1,51 @@
+
+#imagen-CV{
+    width: 500px;
+    height: 500px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+
+#certificados-titulo{
+    margin-top: 20px;
+}
+#idioma{
+    margin-top: 20px;
+}
+
+#fortalezas-personales{
+    margin-top: 20px;
+}
+
+.iconos{
+    display: flex;
+    padding: 0 44px 0 44px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#github-icon{
+    padding-right: 16px;
+    cursor: pointer;
+}
+#linkedin-icon{
+    padding: 0 16px 0 16px;
+    cursor: pointer;
+}
+#instagram-icon{
+    padding: 0 16px 0 16px;
+    cursor: pointer;
+}
+#tail{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 420px){
+    .iconos{
+        margin-top: 32px;
+        justify-content: center;
+    }
+}
