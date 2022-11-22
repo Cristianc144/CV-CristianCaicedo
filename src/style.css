@@ -5,15 +5,12 @@
 }
 
 .projects{
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
 
 #certificados-titulo{
-    margin-top: 20px;
-}
-
-#educacion-titulo{
     margin-top: 20px;
 }
 
