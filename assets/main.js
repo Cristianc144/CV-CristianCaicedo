@@ -48,7 +48,7 @@ async function fetchData(urlApi){
                     <img src="" alt="" class="w-full">
                 </div>
                 <div class="mt-4 flex justify-between">
-                    <h3 class="text-sm text-gray-700">
+                    <h3 class="text-sm text-gray-900">
                         <span aria-hidden="true" class="absolute inset-0"></span>
                         ${publicacion.repoName}
                         ${publicacion.url}
